@@ -1,0 +1,61 @@
+SMART PANTRY - DRAFT GUIDE
+
+The draft files are grouped by the week they best represent in the development of Smart Pantry.
+Some later milestone versions were reconstructed from the development history to show the progression clearly.
+The final submitted program is outside this folder as Smart_Pantry_Final.py.
+
+WEEK 1 - Starting the program
+- Main Menu.py
+  First simple menu and navigation structure.
+
+WEEK 2 - Building the inventory basics
+- Sleep Mode.py
+  Added the early sleep/wake idea.
+- Basic Inventory.py
+  Began storing food information.
+- Add and View Items.py
+  Added the first usable Add Item and View Items flow.
+- Input Checks.py
+  Added basic checks for quantities and prices.
+
+WEEK 3 - Dates, messages and safer adding
+- Expiry Tracking.py
+  Added date comparison and expiry statuses.
+- Expiry Messages.py
+  Added expiry warnings/messages and an update page.
+- Add Item Cancel and Edit.py
+  Added cancel, confirmation and edit-before-saving behaviour.
+
+WEEK 4 - Safer editing
+- Safer Updates.py
+  Added confirmation before updating or deleting items.
+
+WEEK 5 - Multiple batches and categories
+- Multiple Batches and Clear Messages.py
+  Allowed the same food to exist in separate expiry batches and improved message clearing.
+- Food Categories.py
+  Added Fridge/Fresh, Pantry and Frozen organisation.
+
+WEEK 6 - Shopping features
+- Shopping List.py
+  Added the first shopping-list system.
+- Shopping Recommendations.py
+  Added regular items, minimum stock and low-stock recommendations.
+
+WEEK 7 - Budget, units and household features
+- Budget.py
+  Added the first grocery-budget calculations.
+- Shopping and Budget Combined.py
+  Connected shopping-list costs with budget information.
+- KG Pricing.py
+  Added per-item and per-kilogram pricing.
+- Meal Board.py
+  Added the persistent lunch/dinner attendance board.
+- Meal Messages and Reset.py
+  Added meal notifications and next-day reset behaviour.
+
+WEEK 8 - Tkinter transition
+- Tkinter Start.py
+  First graphical main window and inventory view.
+- Tkinter Full Version.py
+  Converted the wider prototype to a basic Tkinter interface.
