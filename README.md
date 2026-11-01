@@ -56,19 +56,6 @@ Smart Pantry creates `smart_pantry_data.json` beside the Python file when data i
 
 The file is ignored by Git because it is user/runtime data. To reset Smart Pantry completely, close the program and delete `smart_pantry_data.json`.
 
-## Repository structure
-
-```text
-Smart_Pantry_GitHub_Ready/
-├── Smart_Pantry_Final.py       # final prototype
-├── README.md                   # project and run instructions
-├── TEST_RESULTS.txt            # final regression-test summary
-├── .gitignore                  # ignores runtime/cache files
-├── docs/
-│   ├── MANUAL_TEST_CHECKLIST.md
-│   └── 3_MINUTE_EXPLAINER_SCRIPT.txt
-└── drafts/                     # earlier development milestones
-```
 
 ## Current limitations
 
@@ -79,9 +66,6 @@ Smart_Pantry_GitHub_Ready/
 - Prices are entered manually rather than retrieved from stores.
 - The program does not support simultaneous editing by multiple household members.
 
-## Future development
-
-Possible future improvements include separating Fresh and Fridge, adding more flexible measurement units such as grams, millilitres and portions, improving frozen-bag tracking, and eventually supporting shared/cloud data.
 
 
 ## Development drafts
